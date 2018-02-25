@@ -1,0 +1,253 @@
+@import 'settings';
+html{
+  font-size: 62.5%;
+}
+body{
+  background: $deep-blue;
+  font-family: $font-principal;
+  color: $white;
+  font-weight: 400;
+}
+
+.container{
+  padding: 0;
+}
+h1{
+  font-weight: 400;
+}
+
+p{
+  color: $dim-white
+}
+
+.nav{
+  background: $cool-orange;
+}
+
+.landing{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  border: none;
+}
+
+.landing--content{
+  border: solid 1rem $cool-orange;
+  margin: 20vh auto;
+  padding: $xs-size;
+  width: 80%;
+  text-align: center;
+  box-shadow: 0.6rem 0.6rem 0.6rem rgba(0,0,0,0.4);
+}
+
+.landing--content h1{
+  font-size: $xl-size;
+  font-weight: bold;
+}
+
+.landing--nota{
+  margin: $small-size auto;
+  font-weight: bold;
+}
+
+button{
+  cursor: pointer;
+  border: solid 0.2rem $cool-orange;
+  background: $deep-blue;
+  border-radius: 0.6rem;
+  padding: $xs-size;
+  font-size: $xs-size;
+  color: $white;
+  transition: $fps;
+}
+
+button:hover{
+  color: $deep-blue;
+  background: $cool-orange;
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(0,0,0,0.4);
+}
+
+.landing--content p{
+  font-size: $small-size;
+  color: $dim-white;
+}
+// .nav--encabezado{
+//
+// }
+
+.tsst{
+  width: 100px;
+  height: 100px;
+  background: $cool-orange;
+}
+
+h2{
+  font-size: $big-size;
+  margin: $big-size auto;
+  padding: $small-size 0;
+  text-align: center;
+
+  border-bottom: solid $xs-size $cool-orange;
+}
+
+.col-md-3{
+  padding: 0;
+}
+
+.habilidad{
+  width: 100%;
+  height: 30rem;
+  margin: 0;
+  padding: 2rem;
+  border: solid 1px $cool-orange;
+  font-family: courier;
+}
+
+.habilidad:hover{
+  box-shadow: -3px -4px 13px rgba(0, 0, 0, 0.51);
+}
+
+.habilidad--frente{
+  font-size: $big-size;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.8s;
+}
+
+.habilidad--descripcion{
+  font-size: $medium-size;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: $fps;
+}
+
+.frontend{
+  background: $dim-white;
+  color: $cool-orange;
+  transition: $fps;
+}
+
+.frontend:hover{
+  background: lighten($dim-white, 20%);
+  color: $cool-orange;
+}
+
+.backend{
+  background: $deep-blue;
+  color: $dim-white;
+  transition: $fps;
+}
+
+.backend:hover{
+  background: lighten($deep-blue, 20%);
+}
+
+.nav{
+  min-height: $big-size;
+  color: $white;
+}
+
+.nav-link{
+  color: $white;
+  font-size: $small-size;
+}
+
+.proyecto{
+  margin: 0;
+  padding: 0;
+}
+
+.proyecto--contenido{
+  padding: $small-size;
+  margin: $xs-size $decimal-size;
+  border: solid $decimal-size $cool-orange;
+
+  text-align: center;
+  min-width: 50vh;
+  background: $dim-white;
+}
+
+.proyecto--contenido img{
+  width: 100%;
+  margin-bottom: $medium-size;
+}
+
+.proyecto--contenido .carrusel{
+  width: 100%;
+  margin-bottom: $medium-size;
+}
+
+.proyecto--contenido h3{
+  font-weight: bold;
+  font-size: $medium-size;
+  color: $deep-blue;
+}
+
+.proyecto--contenido p{
+  color: $cool-orange;
+  font-weight: bold;
+  font-size: $small-size;
+  margin-bottom: $medium-size;
+}
+
+.proyecto--boton{
+  cursor: pointer;
+  border: solid 0.2rem $cool-orange;
+  background: $dim-white;
+  border-radius: 0.6rem;
+  padding: $xs-size;
+  font-size: $xs-size;
+  color: $deep-blue;
+  transition: $fps;
+}
+
+.proyecto--boton:hover{
+  background: $deep-blue;
+  color: $dim-white;
+  transition: $fps;
+}
+
+.proyecto--contenido a{
+  color: $deep-blue !important;
+}
+
+.proyecto--contenido a:hover{
+  color: $dim-white !important;
+}
+
+.contacto{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  height: 100vh;
+  width: 100%;
+  background: $cool-orange;
+  color: $dim-white;
+  font-size: $big-size;
+  transition: 0.8s;
+}
+
+.contacto--datos{
+  margin: $big-size auto;
+  text-align: right;
+  transition: 0.8s;
+}
+
+.nav--boton{
+  cursor: pointer;
+}
+
+footer{
+  margin-top: $big-size;
+  text-align: center;
+  font-size: $small-size;
+  color: $dim-white;
+  font-weight: bold;
+  font-family: courier
+}
